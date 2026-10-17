@@ -1,0 +1,56 @@
+name: VedikaChat
+options:
+  bundleIdPrefix: io.vedika.chat
+  deploymentTarget:
+    iOS: "15.0"
+  schemePathPrefix: ""
+configs:
+  Debug: debug
+  Release: release
+targets:
+  VedikaChat:
+    type: framework
+    platform: iOS
+    sources:
+      - path: Sources/VedikaChat
+    settings:
+      base:
+        SWIFT_VERSION: "5.0"
+        IPHONEOS_DEPLOYMENT_TARGET: "15.0"
+        PRODUCT_BUNDLE_IDENTIFIER: io.vedika.chat
+        INFOPLIST_KEY_CFBundleDisplayName: VedikaChat
+        TARGETED_DEVICE_FAMILY: "1,2"
+        ASSETCATALOG_COMPILER_APPICON_NAME: ""
+        GENERATE_INFOPLIST_FILE: YES
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_IDENTITY: ""
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGNING_ALLOWED: NO
+  VedikaChatTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests/VedikaChatTests
+    dependencies:
+      - target: VedikaChat
+    settings:
+      base:
+        SWIFT_VERSION: "5.0"
+        IPHONEOS_DEPLOYMENT_TARGET: "15.0"
+        PRODUCT_BUNDLE_IDENTIFIER: io.vedika.chat.tests
+        GENERATE_INFOPLIST_FILE: YES
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_IDENTITY: ""
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGNING_ALLOWED: NO
+schemes:
+  VedikaChat:
+    build:
+      targets:
+        VedikaChat: all
+        VedikaChatTests: [test]
+    test:
+      targets:
+        - VedikaChatTests
+    run:
+      config: Debug

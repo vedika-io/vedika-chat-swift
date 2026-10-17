@@ -1,0 +1,8 @@
+# Swift Package / Xcode build artefacts for the Vedika chat iOS SDK.
+.build/
+.swiftpm/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+Package.resolved
+.DS_Store

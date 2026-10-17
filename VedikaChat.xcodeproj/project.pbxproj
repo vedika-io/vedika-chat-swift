@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25E1C3056D3CEA7075AFDC4A /* VedikaChat.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7974CE1EEAF4B35A5B4B6DB4 /* VedikaChat.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4B769F2FBF9F5BC50D1367F3 /* VedikaChatManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DED72C847CC4AC318F1963 /* VedikaChatManifest.swift */; };
+		4E1EC2017F03ABA0344A9963 /* VedikaChatManifestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D23F2FC26EC48D9B55023E1 /* VedikaChatManifestTests.swift */; };
+		5FA585C96CAE32E6DE2017DD /* VedikaChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7EC62FE22A4BC8392DCCA /* VedikaChatViewController.swift */; };
+		618A1FF7C006FCC7B555A55C /* VedikaChatOffline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C91C31C65D513428C8DA05 /* VedikaChatOffline.swift */; };
+		6C4C14F523E86D53399C1A83 /* VedikaChatBridgeLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B257D16DA7F19A33DCC847A2 /* VedikaChatBridgeLogger.swift */; };
+		7317F36CB642FD9A63259BC7 /* VedikaChatHostedLoadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8EA52A59DD34B304656A38 /* VedikaChatHostedLoadTests.swift */; };
+		7A0715401F5883C85DF8287E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 533CE090C22A8357AB2C0BB8 /* README.md */; };
+		929DC1C360B43216E8D7BE7F /* VedikaChatOfflineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050B6A397B0B5144E4A60E40 /* VedikaChatOfflineTests.swift */; };
+		B2089D290A715E7EBDB5B44D /* VedikaChatBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418B979137F933A31326F34A /* VedikaChatBridge.swift */; };
+		B9B3D1B148EF42146C6DE092 /* VedikaChatHosted.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144F24D2622E84C1B6B804A /* VedikaChatHosted.swift */; };
+		BEF326A22F55FE2F8B889B92 /* VedikaChatConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E9416C77AE22B121AE367B /* VedikaChatConfig.swift */; };
+		C2809FC0E9DFE1E1CDF62D5F /* VedikaChatTokenLoggingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B67AAD2A884F97BA4FFEECB /* VedikaChatTokenLoggingTests.swift */; };
+		CD2FCAC77EE3145DE869152A /* VedikaChatTokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9099BB70270CF749D573529A /* VedikaChatTokenProvider.swift */; };
+		D4E58426D565DBEEDF03188C /* VedikaChatConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E591EF2E3D8520E7036C09B /* VedikaChatConfigTests.swift */; };
+		EFDB4CFD6275C46D35A064C1 /* VedikaChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7974CE1EEAF4B35A5B4B6DB4 /* VedikaChat.framework */; };
+		F4681AD2015A11A37D4E9551 /* VedikaChatBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0783675463F9FD0167328B58 /* VedikaChatBridgeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBF0231F07E9C34A93B34403 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21B41FE57DC400F722DDC105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06798FB9FA3A7646F1486DBB;
+			remoteInfo = VedikaChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A6709D0FD4EB31A4DC0601B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				25E1C3056D3CEA7075AFDC4A /* VedikaChat.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		050B6A397B0B5144E4A60E40 /* VedikaChatOfflineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedikaChatOfflineTests.swift; sourceTree = "<group>"; };
+		0783675463F9FD0167328B58 /* VedikaChatBridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedikaChatBridgeTests.swift; sourceTree = "<group>"; };
+		1AFBC6DB1EFEE13970DF6CB0 /* VedikaChatTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = VedikaChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B67AAD2A884F97BA4FFEECB /* VedikaChatTokenLoggingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedikaChatTokenLoggingTests.swift; sourceTree = "<group>"; };
+		418B979137F933A31326F34A /* VedikaChatBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedikaChatBridge.swift; sourceTree = "<group>"; };
+		4DC7EC62FE22A4BC8392DCCA /* VedikaChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedikaChatViewController.swift; sourceTree = "<group>"; };
+		533CE090C22A8357AB2C0BB8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		53E9416C77AE22B121AE367B /* VedikaChatConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedikaChatConfig.swift; sourceTree = "<group>"; };
+		54DED72C847CC4AC318F1963 /* VedikaChatManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedikaChatManifest.swift; sourceTree = "<group>"; };
+		5E591EF2E3D8520E7036C09B /* VedikaChatConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedikaChatConfigTests.swift; sourceTree = "<group>"; };
+		5E8EA52A59DD34B304656A38 /* VedikaChatHostedLoadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedikaChatHostedLoadTests.swift; sourceTree = "<group>"; };
+		7974CE1EEAF4B35A5B4B6DB4 /* VedikaChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VedikaChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C91C31C65D513428C8DA05 /* VedikaChatOffline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedikaChatOffline.swift; sourceTree = "<group>"; };
+		9099BB70270CF749D573529A /* VedikaChatTokenProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedikaChatTokenProvider.swift; sourceTree = "<group>"; };
+		9D23F2FC26EC48D9B55023E1 /* VedikaChatManifestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedikaChatManifestTests.swift; sourceTree = "<group>"; };
+		B257D16DA7F19A33DCC847A2 /* VedikaChatBridgeLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedikaChatBridgeLogger.swift; sourceTree = "<group>"; };
+		D144F24D2622E84C1B6B804A /* VedikaChatHosted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedikaChatHosted.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72BEC0DFE31FF269FA2D8757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDB4CFD6275C46D35A064C1 /* VedikaChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08EF3BD98531A31DC19AB5D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7974CE1EEAF4B35A5B4B6DB4 /* VedikaChat.framework */,
+				1AFBC6DB1EFEE13970DF6CB0 /* VedikaChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CB6FB4120FF604B18C2FF9D /* VedikaChat */ = {
+			isa = PBXGroup;
+			children = (
+				418B979137F933A31326F34A /* VedikaChatBridge.swift */,
+				B257D16DA7F19A33DCC847A2 /* VedikaChatBridgeLogger.swift */,
+				53E9416C77AE22B121AE367B /* VedikaChatConfig.swift */,
+				D144F24D2622E84C1B6B804A /* VedikaChatHosted.swift */,
+				54DED72C847CC4AC318F1963 /* VedikaChatManifest.swift */,
+				84C91C31C65D513428C8DA05 /* VedikaChatOffline.swift */,
+				9099BB70270CF749D573529A /* VedikaChatTokenProvider.swift */,
+				4DC7EC62FE22A4BC8392DCCA /* VedikaChatViewController.swift */,
+				84121510131054ECD0BB2FB5 /* Resources */,
+			);
+			name = VedikaChat;
+			path = Sources/VedikaChat;
+			sourceTree = "<group>";
+		};
+		78426D486CACD32DAA3D02A3 /* VedikaChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				0783675463F9FD0167328B58 /* VedikaChatBridgeTests.swift */,
+				5E591EF2E3D8520E7036C09B /* VedikaChatConfigTests.swift */,
+				5E8EA52A59DD34B304656A38 /* VedikaChatHostedLoadTests.swift */,
+				9D23F2FC26EC48D9B55023E1 /* VedikaChatManifestTests.swift */,
+				050B6A397B0B5144E4A60E40 /* VedikaChatOfflineTests.swift */,
+				1B67AAD2A884F97BA4FFEECB /* VedikaChatTokenLoggingTests.swift */,
+			);
+			name = VedikaChatTests;
+			path = Tests/VedikaChatTests;
+			sourceTree = "<group>";
+		};
+		84121510131054ECD0BB2FB5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				533CE090C22A8357AB2C0BB8 /* README.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AAE07E396CBDCC2957533F88 = {
+			isa = PBXGroup;
+			children = (
+				1CB6FB4120FF604B18C2FF9D /* VedikaChat */,
+				78426D486CACD32DAA3D02A3 /* VedikaChatTests */,
+				08EF3BD98531A31DC19AB5D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06798FB9FA3A7646F1486DBB /* VedikaChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFC14BFDF9503284739ADC8 /* Build configuration list for PBXNativeTarget "VedikaChat" */;
+			buildPhases = (
+				DB62D9CF80E5C0C5A1D9069A /* Sources */,
+				2E503A52B41D2351B4586746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VedikaChat;
+			packageProductDependencies = (
+			);
+			productName = VedikaChat;
+			productReference = 7974CE1EEAF4B35A5B4B6DB4 /* VedikaChat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		30FBB492414C4AF3A14CF06C /* VedikaChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A161C88BB483E5671009A75F /* Build configuration list for PBXNativeTarget "VedikaChatTests" */;
+			buildPhases = (
+				31F933C892F67E50D8D2C5BE /* Sources */,
+				72BEC0DFE31FF269FA2D8757 /* Frameworks */,
+				1A6709D0FD4EB31A4DC0601B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FC29120113A1771831C0F0E /* PBXTargetDependency */,
+			);
+			name = VedikaChatTests;
+			packageProductDependencies = (
+			);
+			productName = VedikaChatTests;
+			productReference = 1AFBC6DB1EFEE13970DF6CB0 /* VedikaChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21B41FE57DC400F722DDC105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					06798FB9FA3A7646F1486DBB = {
+						DevelopmentTeam = "";
+					};
+					30FBB492414C4AF3A14CF06C = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = EDFAF96460F04D670D354A93 /* Build configuration list for PBXProject "VedikaChat" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = AAE07E396CBDCC2957533F88;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 08EF3BD98531A31DC19AB5D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06798FB9FA3A7646F1486DBB /* VedikaChat */,
+				30FBB492414C4AF3A14CF06C /* VedikaChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E503A52B41D2351B4586746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0715401F5883C85DF8287E /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31F933C892F67E50D8D2C5BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4681AD2015A11A37D4E9551 /* VedikaChatBridgeTests.swift in Sources */,
+				D4E58426D565DBEEDF03188C /* VedikaChatConfigTests.swift in Sources */,
+				7317F36CB642FD9A63259BC7 /* VedikaChatHostedLoadTests.swift in Sources */,
+				4E1EC2017F03ABA0344A9963 /* VedikaChatManifestTests.swift in Sources */,
+				929DC1C360B43216E8D7BE7F /* VedikaChatOfflineTests.swift in Sources */,
+				C2809FC0E9DFE1E1CDF62D5F /* VedikaChatTokenLoggingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB62D9CF80E5C0C5A1D9069A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2089D290A715E7EBDB5B44D /* VedikaChatBridge.swift in Sources */,
+				6C4C14F523E86D53399C1A83 /* VedikaChatBridgeLogger.swift in Sources */,
+				BEF326A22F55FE2F8B889B92 /* VedikaChatConfig.swift in Sources */,
+				B9B3D1B148EF42146C6DE092 /* VedikaChatHosted.swift in Sources */,
+				4B769F2FBF9F5BC50D1367F3 /* VedikaChatManifest.swift in Sources */,
+				618A1FF7C006FCC7B555A55C /* VedikaChatOffline.swift in Sources */,
+				CD2FCAC77EE3145DE869152A /* VedikaChatTokenProvider.swift in Sources */,
+				5FA585C96CAE32E6DE2017DD /* VedikaChatViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FC29120113A1771831C0F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06798FB9FA3A7646F1486DBB /* VedikaChat */;
+			targetProxy = DBF0231F07E9C34A93B34403 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AFD6FDD4B01C58CAE59F31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		33B3EBC84A6406CDF0041C9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.vedika.chat.tests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		446EE22F3F22D39105374EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VedikaChat;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.vedika.chat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		5CA59D54E3DB0FD878CB5990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AC3907CF307DF032F044175B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VedikaChat;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.vedika.chat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		F0A9BA802A7A968CC262FC61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.vedika.chat.tests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A161C88BB483E5671009A75F /* Build configuration list for PBXNativeTarget "VedikaChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A9BA802A7A968CC262FC61 /* Debug */,
+				33B3EBC84A6406CDF0041C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EDFAF96460F04D670D354A93 /* Build configuration list for PBXProject "VedikaChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA59D54E3DB0FD878CB5990 /* Debug */,
+				0AFD6FDD4B01C58CAE59F31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FCFC14BFDF9503284739ADC8 /* Build configuration list for PBXNativeTarget "VedikaChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3907CF307DF032F044175B /* Debug */,
+				446EE22F3F22D39105374EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21B41FE57DC400F722DDC105 /* Project object */;
+}
